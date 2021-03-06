@@ -55,3 +55,4 @@ D:\Leren\AZ-204\docker\ContainerApp\TelemetryShowImageFromBlob001\obj\Debug\netc
 D:\Leren\AZ-204\docker\ContainerApp\TelemetryShowImageFromBlob001\obj\Debug\netcoreapp3.1\TelemetryShowImageFromBlob001.dll
 D:\Leren\AZ-204\docker\ContainerApp\TelemetryShowImageFromBlob001\obj\Debug\netcoreapp3.1\TelemetryShowImageFromBlob001.pdb
 D:\Leren\AZ-204\docker\ContainerApp\TelemetryShowImageFromBlob001\obj\Debug\netcoreapp3.1\TelemetryShowImageFromBlob001.genruntimeconfig.cache
+D:\Leren\AZ-204\docker\ContainerApp\TelemetryShowImageFromBlob001\obj\Debug\netcoreapp3.1\Razor\Views\Home\BansAbout.cshtml.g.cs

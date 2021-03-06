@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("0700c2a1-be88-4edd-990a-46a2c0c63645")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TelemetryShowImageFromBlob001")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

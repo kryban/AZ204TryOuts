@@ -1,0 +1,17 @@
+﻿$counter = 0;
+
+while($counter -lt 201)
+{
+    Write-Host("=========================================================>>>>>>>>>" + $counter);
+    Invoke-WebRequest -Uri "https://localhost:44342/";
+    $counter++;
+
+    if($counter % 2 -eq 0)
+    {
+     Invoke-WebRequest -uri "https://localhost:44342/Home/Privacy"   
+    }
+    if($counter % 3 -eq 0)
+    {
+     Invoke-WebRequest -uri "https://localhost:44342/Home/BansAbout"   
+    }
+}

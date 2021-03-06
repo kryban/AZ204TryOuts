@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>0700c2a1-be88-4edd-990a-46a2c0c63645</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/673516c5-0c40-46a2-a437-435d94d3217c/resourcegroups/vs-bandik-we/providers/Microsoft.Insights/components/TelemetryShowImageFromBlob001</ApplicationInsightsResourceId>
   </PropertyGroup>
 
   <ItemGroup>

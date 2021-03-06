@@ -1,4 +1,24 @@
 {
-  "dependencies": {},
-  "parameters": {}
+  "dependencies": {
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2021-03-06T10:37:06.3094306Z"
+    },
+    "appInsights1": {
+      "restored": true,
+      "restoreTime": "2021-03-06T10:37:07.2282653Z"
+    }
+  },
+  "parameters": {
+    "appInsights1.subscriptionId": {
+      "Name": "appInsights1.subscriptionId",
+      "Type": "subscription",
+      "Value": "673516c5-0c40-46a2-a437-435d94d3217c"
+    },
+    "appInsights1.resourceGroupName": {
+      "Name": "appInsights1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "vs-bandik-we"
+    }
+  }
 }
