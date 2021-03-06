@@ -1,0 +1,10 @@
+﻿@model StorageShowImageFromBlob001.Models.BlobImage
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to the @Model.BlobImageName presenter. </h1>
+    <p><img src="@Model.BlobImageUrl"/></p>
+</div>

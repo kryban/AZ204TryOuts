@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "ServiceBusTopicRECEIVERApp001": {
+      "commandName": "Project"
+    }
+  }
+}

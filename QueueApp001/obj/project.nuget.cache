@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "VcgSxTSkF1VIiUFXxLNw4FZhaYFfLSsV0fY1cXgGGoZLEqwt/34s5C2IgXbhEGgmnTt/jCMMHtcbx4J643tU0A==",
+  "success": true,
+  "projectFilePath": "D:\\Leren\\AZ-204\\docker\\ContainerApp\\QueueApp001\\StorageQueueApp001.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\karoy\\.nuget\\packages\\azure.core\\1.8.1\\azure.core.1.8.1.nupkg.sha512",
+    "C:\\Users\\karoy\\.nuget\\packages\\azure.storage.common\\12.7.0\\azure.storage.common.12.7.0.nupkg.sha512",
+    "C:\\Users\\karoy\\.nuget\\packages\\azure.storage.queues\\12.6.0\\azure.storage.queues.12.6.0.nupkg.sha512",
+    "C:\\Users\\karoy\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
+    "C:\\Users\\karoy\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\karoy\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0\\system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512",
+    "C:\\Users\\karoy\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\karoy\\.nuget\\packages\\system.memory.data\\1.0.1\\system.memory.data.1.0.1.nupkg.sha512",
+    "C:\\Users\\karoy\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\karoy\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512",
+    "C:\\Users\\karoy\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "ServiceBusQueueSENDERApp1": {
+      "commandName": "Project"
+    }
+  }
+}
