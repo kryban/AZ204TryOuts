@@ -35,13 +35,8 @@ namespace TelemetryShowImageFromBlob001.Controllers
 
             // id dit project is de code instrumented om metingen te kunnen doen
 
-            /* in AZ: 
-             * az storage account create -n bansconfiguredstorage001 -g vs-bandik-we -l westeurope
-             * az storage container create -n bansconfiguredblob001 --account-name bansconfiguredstorage001 --public-access blob
-             * az storage blob upload --account-name bansconfiguredstorage001 --name bansblobfile001 --container-name bansblob001 --file '.\Desktop\NewFolder\cn3.jpg'
-             * az appservice plan create -g vs-bandik-we -n banswebappplan --sku S1
-             * az webapp create --plan banswebappplan -n banswebapp001 -g vs-bandik-we --runtime "DOTNETCORE:3.1" 
-             */
+            // Om azure op te tuigen voer je de commands uit AZ-commands uit (let op dat je image files in de juiste path zet)
+
             blobConnstr = configuration["StorageConnectionString"];
             BlobClient client = new BlobClient(blobConnstr, containername, blobname);
 

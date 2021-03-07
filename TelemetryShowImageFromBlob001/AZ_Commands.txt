@@ -1,0 +1,16 @@
+﻿ 
+// Optuigen van azure, er van uitgaande dat resourcegroup "vs-bandik-we" al bestaat.
+// let op dat de path voor uploadvan images bestaat
+
+
+az storage account create -n bansstorage001 -g vs-bandik-we -l westeurope
+az storage account create -n bansconfiguredstorage001 -g vs-bandik-we -l westeurope
+
+az storage container create -n bansblob001 --account-name bansstorage001 --public-access blob
+az storage container create -n bansblob001 --account-name bansconfiguredstorage001 --public-access blob
+
+az storage blob upload --account-name bansstorage001 --name bansblobfile001 --container-name bansblob001 --file '.\Desktop\NewFolder\cn3.jpg'
+az storage blob upload --account-name bansconfiguredstorage001 --name bansblobfile001 --container-name bansblob001 --file '.\Desktop\NewFolder\cn3c.jpg'
+
+az appservice plan create -g vs-bandik-we -n banswebappplan --sku S1
+az webapp create --plan banswebappplan -n banswebapp001 -g vs-bandik-we --runtime "DOTNETCORE:3.1" 

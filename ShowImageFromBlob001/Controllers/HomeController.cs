@@ -30,6 +30,7 @@ namespace StorageShowImageFromBlob001.Controllers
             // in debug wordt storage account "bansstorage001", terwijl in de webapp "bansconfiguredstorage001" aangewezen is
             // dat betekent dat tijdens debug een andere plaatje getoond moet worden dan wanneer het gedeployed is.
 
+            //Om azure op te tuigen voer je de commands uit AZ-commands uit (let op dat je image files in de juiste path zet)
             /* in AZ: 
              * az storage account create -n bansconfiguredstorage001 -g vs-bandik-we -l westeurope
              * az storage container create -n bansconfiguredblob001 --account-name bansconfiguredstorage001 --public-access blob
