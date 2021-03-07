@@ -1,3 +1,4 @@
+
 foo
 az login
 az group create --name live-bandik-we --location westeurope
