@@ -14,3 +14,4 @@ az storage blob upload --account-name bansconfiguredstorage001 --name bansblobfi
 
 az appservice plan create -g vs-bandik-we -n banswebappplan --sku S1
 az webapp create --plan banswebappplan -n banswebapp001 -g vs-bandik-we --runtime "DOTNETCORE:3.1" 
+ 
