@@ -1,7 +1,7 @@
 ﻿ 
-// Optuigen van azure, er van uitgaande dat resourcegroup "vs-bandik-we" al bestaat.
 // let op dat de path voor uploadvan images bestaat
 
+az group create --name vs-bandik-we --location westeurope --tags learn-bandik
 
 az storage account create -n bansstorage001 -g vs-bandik-we -l westeurope
 az storage account create -n bansconfiguredstorage001 -g vs-bandik-we -l westeurope
